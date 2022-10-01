@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doctort">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/dtlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CallerSinhalaActivity"></activity>
+        <activity android:name=".CallerTamilActivity" />
+        <activity android:name=".CallerEnglishActivity" />
+        <activity android:name=".RemedyTamilActivity" />
+        <activity android:name=".RemedySinhalaActivity" />
+        <activity android:name=".SymptomSinhalaActivity" />
+        <activity android:name=".SymptomsTamilActivity" />
+        <activity android:name=".HomeSinhalaActivity" />
+        <activity android:name=".PredictSinhalaActivity" />
+        <activity android:name=".HomeTamilActivity" />
+        <activity android:name=".PredictTamilActivity" />
+        <activity android:name=".LanguageActivity" />
+        <activity android:name=".PredictEnglishActivity" />
+        <activity android:name=".SymptomEnglishActivity" />
+        <activity android:name=".RemedyEnglishActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeEnglishActivity" />
+    </application>
+
+</manifest>

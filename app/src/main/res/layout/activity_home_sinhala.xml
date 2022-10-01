@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.doctort.HomeSinhalaActivity"
+    >
+    <ImageView
+        android:id="@+id/backgroundEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/englishdashboardnew" />
+
+    <ImageButton
+        android:id="@+id/btnSymptomTamil"
+        android:layout_width="176dp"
+        android:layout_height="165dp"
+        android:background="@color/white"
+        android:maxWidth="176dp"
+        android:maxHeight="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toEndOf="@+id/btnPredictTamil"
+        app:layout_constraintTop_toTopOf="@+id/backgroundEnglish"
+        app:layout_constraintVertical_bias="0.611"
+        app:srcCompat="@drawable/symptom_btn_sinhala" />
+
+    <ImageButton
+        android:id="@+id/btnRemedyTamil"
+
+        android:layout_width="176dp"
+        android:layout_height="165dp"
+        android:background="@color/white"
+        android:maxWidth="176dp"
+        android:maxHeight="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnHelpSinhala"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPredictTamil"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/remedy_btn_sinhala2" />
+
+    <ImageButton
+        android:id="@+id/btnHelpSinhala"
+
+        android:layout_width="176dp"
+        android:layout_height="165dp"
+        android:background="@color/white"
+        android:maxWidth="176dp"
+        android:maxHeight="160dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSymptomTamil"
+        app:layout_constraintVertical_bias="0.366"
+        app:srcCompat="@drawable/help_btn_sinhala" />
+
+    <ImageButton
+        android:id="@+id/btnPredictTamil"
+        android:layout_width="176dp"
+        android:layout_height="165dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.073"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/backgroundEnglish"
+        app:layout_constraintVertical_bias="0.611"
+        app:srcCompat="@drawable/predict_btn_sinhala1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
